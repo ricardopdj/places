@@ -1,0 +1,120 @@
+/* Background and texts colors */
+.bg-primary-light {
+  background-color: #eaedfe;
+}
+
+.bg-secondary-light {
+  background-color: #fce8f1;
+}
+
+.bg-success-light {
+  background-color: #e5f4e9;
+}
+
+.bg-info-light {
+  background-color: #e3f4f6;
+}
+
+.bg-warning-light {
+  background-color: #fff8e1;
+}
+
+.bg-danger-light {
+  background-color: #fbe7e9;
+}
+
+.bg-light-light {
+  background-color: #fefefe;
+}
+
+.bg-dark-light {
+  background-color: #e7e7e8;
+}
+
+.bg-gray-100 {
+  background: #f8f9fa !important;
+}
+
+.text-gray-100 {
+  color: #f8f9fa;
+}
+
+.bg-gray-200 {
+  background: #e9ecef !important;
+}
+
+.text-gray-200 {
+  color: #e9ecef;
+}
+
+.bg-gray-300 {
+  background: #dee2e6 !important;
+}
+
+.text-gray-300 {
+  color: #dee2e6;
+}
+
+.bg-gray-400 {
+  background: #ced4da !important;
+}
+
+.text-gray-400 {
+  color: #ced4da;
+}
+
+.bg-gray-500 {
+  background: #adb5bd !important;
+}
+
+.text-gray-500 {
+  color: #adb5bd;
+}
+
+.bg-gray-600 {
+  background: #868e96 !important;
+}
+
+.text-gray-600 {
+  color: #868e96;
+}
+
+.bg-gray-700 {
+  background: #495057 !important;
+}
+
+.text-gray-700 {
+  color: #495057;
+}
+
+.bg-gray-800 {
+  background: #343a40 !important;
+}
+
+.text-gray-800 {
+  color: #343a40;
+}
+
+.bg-gray-900 {
+  background: #212529 !important;
+}
+
+.text-gray-900 {
+  color: #212529;
+}
+
+.bg-primary-100 {
+  background: #f8f9ff;
+}
+
+/* utils */
+.btn-reset {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #868e96;
+  background: none;
+}

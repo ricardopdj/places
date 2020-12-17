@@ -1,0 +1,8 @@
+@import url("utilities.css");
+@import url("form.css");
+
+.navbar .nav-link {
+  color: #db473a;
+  font-weight: 700;
+  text-transform: uppercase;
+}
