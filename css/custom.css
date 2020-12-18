@@ -11,6 +11,11 @@ body {
   font-family: "AvenirRoman";
 }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 .container-fluid {
   max-width: 2369px;
 }
@@ -182,4 +187,80 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 17px;
   font-weight: 300;
+}
+
+.info-container .row-info {
+  border-bottom: 1px solid #cecece;
+  color: #5e5e5e;
+  font-family: "Roboto", sans-serif;
+  padding: 44px 0;
+  font-weight: 300;
+}
+
+.info-container .row-info > div[class^="col"] {
+  margin-bottom: 15px;
+}
+
+.info-container .row-info .info-box {
+  color: #000000;
+  height: 267px;
+  padding-top: 20px;
+  text-align: center;
+  width: 269px;
+}
+
+.info-container .row-info .info-box .title {
+  font-size: 21px;
+  text-transform: uppercase;
+}
+
+.info-container .row-info .info-box .value-container {
+  margin: 15px 0;
+}
+
+.info-container .row-info .info-box .value {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.info-container .row-info .info-box .value-desc {
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.info-container .row-info .info-box .rate {
+  background-color: #fd7a41;
+  height: 8px;
+  width: 43px;
+}
+
+.info-container .row-info .info-box .rate.not-filled {
+  background-color: transparent;
+  border: solid 1px #fd7a41;
+}
+
+.info-container .row-info .title {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.info-container .row-info .title-sm {
+  color: #000000;
+  font-size: 23px;
+  font-weight: 900;
+}
+
+.info-container .row-info .similar-col .label {
+  font-size: 17px;
+  margin-bottom: -5px;
+}
+
+.info-container .row-info .similar-col .title-sm {
+  border-bottom: 1px solid #000000;
+  padding-bottom: 12px;
+}
+
+.info-container .row-info .similar-col li {
+  color: #000;
 }
