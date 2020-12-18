@@ -78,3 +78,68 @@ body {
     padding: 0;
   }
 }
+
+.breadcrumb {
+  background-color: transparent;
+  padding: 20px 0;
+}
+
+.breadcrumb-item {
+  font-size: 14px;
+}
+
+.main-content .content-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.main-content .content-subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.info-box {
+  align-content: center;
+  border: 1px solid #aaaaaa;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.top-info-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.top-info-container .info-box {
+  height: 153px;
+  padding: 20px 10px;
+  position: relative;
+}
+
+.top-info-container .info-box .title,
+.top-info-container .info-box .value {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+.top-info-container .info-box .title {
+  font-size: 20px;
+}
+
+.top-info-container .info-box .title span {
+  display: block;
+  font-size: 10px;
+  font-weight: normal;
+  position: absolute;
+  top: 10px;
+}
+
+.top-info-container .info-box .value {
+  font-size: 25px;
+}
