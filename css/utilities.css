@@ -103,6 +103,10 @@
   color: #212529;
 }
 
+.text-red {
+  color: #c30000;
+}
+
 .bg-primary-100 {
   background: #f8f9ff;
 }
@@ -117,4 +121,18 @@
   transform: translateY(-50%);
   color: #868e96;
   background: none;
+}
+
+.arrow-icon {
+  display: inline-block;
+  height: 17px;
+  width: 14px;
+}
+
+.arrow-up-black {
+  background-image: url("../img/arrow-up-black.png");
+}
+
+.arrow-down-red {
+  background-image: url("../img/arrow-down-red.png");
 }

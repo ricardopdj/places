@@ -7,7 +7,12 @@
 }
 
 body {
+  color: #000;
   font-family: "AvenirRoman";
+}
+
+.container-fluid {
+  max-width: 2369px;
 }
 
 .header .navbar .nav-link {
@@ -86,18 +91,23 @@ body {
 
 .breadcrumb-item {
   font-size: 14px;
+  text-transform: uppercase;
+}
+
+.main-content .content-title-container {
+  margin-bottom: 100px;
 }
 
 .main-content .content-title {
   font-family: "Roboto", sans-serif;
-  font-size: 28px;
+  font-size: 60px;
   font-weight: 900;
   margin-bottom: 0;
 }
 
 .main-content .content-subtitle {
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 35px;
   font-weight: 200;
   text-transform: uppercase;
 }
@@ -111,14 +121,19 @@ body {
 }
 
 .top-info-container {
-  display: flex;
-  justify-content: space-between;
+  margin-bottom: 100px;
   margin-top: 30px;
+}
+
+.top-info-container .info-box-list {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .top-info-container .info-box {
   height: 153px;
-  padding: 20px 10px;
+  margin: 10px 22px 10px 0;
+  padding: 28px 20px;
   position: relative;
 }
 
@@ -129,17 +144,42 @@ body {
 }
 
 .top-info-container .info-box .title {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .top-info-container .info-box .title span {
   display: block;
-  font-size: 10px;
+  font-size: 17px;
   font-weight: normal;
   position: absolute;
   top: 10px;
 }
 
+.top-info-container .info-box .value-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .top-info-container .info-box .value {
-  font-size: 25px;
+  font-size: 35px;
+}
+
+.top-info-container .info-box .value-extra {
+  align-items: center;
+  display: flex;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  position: relative;
+  top: -10px;
+}
+
+.top-info-container .info-box .value-extra .icon {
+  margin-right: 3px;
+}
+
+.top-info-container .label-info {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
 }

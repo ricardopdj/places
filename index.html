@@ -10,7 +10,11 @@
     <link href="./css/custom.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
 
@@ -20,7 +24,7 @@
     <header class="header">
       <!-- Navbar-->
       <nav class="navbar navbar-expand-lg fixed-top shadow bg-white">
-        <div class="container">
+        <div class="container-fluid">
           <div class="d-flex align-items-center">
             <a class="navbar-brand py-1" href="index.html"
               ><img src="./img/logo.png" alt="Directory logo"
@@ -116,7 +120,7 @@
     ></section>
 
     <div class="nav-sub-container">
-      <div class="container">
+      <div class="container-fluid">
         <nav class="nav nav-sub">
           <a class="nav-link active" href="#">Overview</a>
           <a class="nav-link" href="#">Affordability</a>
@@ -131,54 +135,99 @@
       </div>
     </div>
 
-    <main class="main-content">
-      <div class="container">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item active" aria-current="page">Places</li>
-            <li class="breadcrumb-item active" aria-current="page">IDAHO</li>
-            <li class="breadcrumb-item active" aria-current="page">Meridian</li>
-          </ol>
-        </nav>
+    <main class="main-content container-fluid">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Places</li>
+          <li class="breadcrumb-item active" aria-current="page">IDAHO</li>
+          <li class="breadcrumb-item active" aria-current="page">Meridian</li>
+        </ol>
+      </nav>
 
-        <div class="title-container">
-          <h3 class="content-title">Meridian</h3>
-          <h4 class="content-subtitle">Idaho</h4>
-        </div>
+      <div class="content-title-container">
+        <h3 class="content-title">Meridian</h3>
+        <h4 class="content-subtitle">Idaho</h4>
+      </div>
 
-        <div class="top-info-container">
+      <div class="top-info-container">
+        <div class="info-box-list">
           <div class="info-box">
             <div class="title">Population</div>
-            <div class="value">72,981</div>
+            <div class="value-container">
+              <div class="value">72,981</div>
+            </div>
           </div>
           <div class="info-box">
             <div class="title">Home</div>
-            <div class="value">$323,500</div>
+            <div class="value-container">
+              <div class="value">
+                $323,500
+                <span class="value-extra"
+                  ><i class="icon arrow-icon arrow-up-black"></i>46%</span
+                >
+              </div>
+            </div>
           </div>
           <div class="info-box">
             <div class="title">Income</div>
-            <div class="value">$63,225</div>
+            <div class="value-container">
+              <div class="value">$63,225</div>
+            </div>
           </div>
           <div class="info-box">
             <div class="title">Unemployment</div>
-            <div class="value">2.7%</div>
+            <div class="value-container">
+              <div class="value">
+                2.7%
+                <span class="value-extra text-red"
+                  ><i class="icon arrow-icon arrow-down-red"></i>0.2%</span
+                >
+              </div>
+            </div>
           </div>
           <div class="info-box">
             <div class="title"><span>Monthly</span>Living Cost</div>
-            <div class="value">$4,291</div>
+            <div class="value-container">
+              <div class="value">
+                $4,291
+                <span class="value-extra text-red"
+                  ><i class="icon arrow-icon arrow-down-red"></i>%9</span
+                >
+              </div>
+            </div>
           </div>
           <div class="info-box">
             <div class="title">Age</div>
-            <div class="value">29.8</div>
+            <div class="value-container">
+              <div class="value">29.8</div>
+            </div>
           </div>
           <div class="info-box">
             <div class="title"><span>Temperature</span> Average High</div>
-            <div class="value">80°</div>
+            <div class="value-container">
+              <div class="value">
+                80° <span class="value-extra">Summer</span>
+              </div>
+              <div class="value">
+                45° <span class="value-extra">Winter</span>
+              </div>
+            </div>
           </div>
           <div class="info-box">
             <div class="title">Days of sun</div>
-            <div class="value">243</div>
+            <div class="value-container">
+              <div class="value">
+                243
+                <span class="value-extra"
+                  ><i class="icon arrow-icon arrow-up-black"></i>19%</span
+                >
+              </div>
+            </div>
           </div>
+        </div>
+        <div class="d-flex justify-content-between label-info">
+          <div>Meridian VS. National Average</div>
+          <div>All values = median unless indicated</div>
         </div>
       </div>
     </main>
