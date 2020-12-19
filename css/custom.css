@@ -206,7 +206,7 @@ ul {
   height: 267px;
   padding-top: 20px;
   text-align: center;
-  width: 269px;
+  width: 230px;
 }
 
 .info-container .row-info .info-box .title {
@@ -231,7 +231,7 @@ ul {
 .info-container .row-info .info-box .rate {
   background-color: #fd7a41;
   height: 8px;
-  width: 43px;
+  width: 33px;
 }
 
 .info-container .row-info .info-box .rate.not-filled {
@@ -243,24 +243,94 @@ ul {
   color: #000000;
   font-size: 30px;
   font-weight: 900;
+  margin-bottom: 25px;
 }
 
 .info-container .row-info .title-sm {
   color: #000000;
-  font-size: 23px;
+  font-size: 21px;
   font-weight: 900;
-}
-
-.info-container .row-info .similar-col .label {
-  font-size: 17px;
-  margin-bottom: -5px;
-}
-
-.info-container .row-info .similar-col .title-sm {
-  border-bottom: 1px solid #000000;
-  padding-bottom: 12px;
 }
 
 .info-container .row-info .similar-col li {
   color: #000;
+  margin-bottom: 5px;
+}
+
+.info-container .row-info .col-title .label {
+  font-size: 14px;
+  margin-bottom: -5px;
+}
+
+.info-container .row-info .col-title .title-sm {
+  border-bottom: 1px solid #000000;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+.info-container .col-row-title {
+  display: flex;
+  flex-direction: column;
+  padding-top: 75px;
+}
+
+.col-table .th {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.col-table .th.col-title {
+  position: relative;
+}
+
+.col-table .th.col-title .calc-icon {
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  right: -10px;
+  top: 10px;
+}
+
+.col-table .title-sm-left {
+  margin-bottom: -5px;
+}
+
+.col-table-type-1 .value {
+  font-size: 20px;
+}
+
+.col-table-type-1 .value-pct,
+.col-table-type-2 .value-pct {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.col-table-type-1 .value-pct .icon,
+.col-table-type-2 .value-pct .icon {
+  height: 14px;
+  margin-left: 5px;
+  margin-right: -5px;
+  width: 13px;
+}
+
+.col-table-type-1 .value-pct-down,
+.col-table-type-2 .value-pct-down {
+  color: #c30000;
+}
+
+.col-table-type-1 .value-earnings {
+  font-weight: bold;
+  position: relative;
+}
+
+.col-table-type-1 .value-earnings .icon {
+  position: absolute;
+  left: 60px;
+  top: 0px;
+}
+
+.col-table-type-2 .value-list small {
+  color: grey;
+  font-size: 12px;
+  font-weight: 300;
 }

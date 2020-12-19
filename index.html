@@ -163,7 +163,7 @@
               <div class="value">
                 $323,500
                 <span class="value-extra"
-                  ><i class="icon arrow-icon arrow-up-black"></i>46%</span
+                  ><i class="icon arrow-icon arrow-up"></i>46%</span
                 >
               </div>
             </div>
@@ -171,7 +171,12 @@
           <div class="info-box">
             <div class="title">Income</div>
             <div class="value-container">
-              <div class="value">$63,225</div>
+              <div class="value">
+                $63,225
+                <span class="value-extra"
+                  ><i class="icon arrow-icon arrow-up"></i>13%</span
+                >
+              </div>
             </div>
           </div>
           <div class="info-box">
@@ -180,7 +185,7 @@
               <div class="value">
                 2.7%
                 <span class="value-extra text-red"
-                  ><i class="icon arrow-icon arrow-down-red"></i>0.2%</span
+                  ><i class="icon arrow-icon arrow-down"></i>0.2%</span
                 >
               </div>
             </div>
@@ -191,7 +196,7 @@
               <div class="value">
                 $4,291
                 <span class="value-extra text-red"
-                  ><i class="icon arrow-icon arrow-down-red"></i>%9</span
+                  ><i class="icon arrow-icon arrow-down"></i>9%</span
                 >
               </div>
             </div>
@@ -219,7 +224,7 @@
               <div class="value">
                 243
                 <span class="value-extra"
-                  ><i class="icon arrow-icon arrow-up-black"></i>19%</span
+                  ><i class="icon arrow-icon arrow-up"></i>19%</span
                 >
               </div>
             </div>
@@ -232,6 +237,7 @@
       </div>
 
       <div class="info-container">
+        <!-- OVERALL -->
         <div class="row row-info">
           <div class="col-12 col-lg-auto">
             <div class="info-box">
@@ -250,9 +256,8 @@
               </div>
             </div>
           </div>
-          <!-- <div class="w-100 d-none d-lg-block d-xl-none"></div> -->
           <div class="col-12 col-sm-6 col-lg-3 col-xl-auto">
-            <h4 class="title">Rankings</h5>
+            <h4 class="title">Rankings</h4>
             <ul>
               <li><b>#10</b> Safest Cities In Idaho</li>
               <li><b>#22</b> Best Schools In Idaho</li>
@@ -260,7 +265,7 @@
             </ul>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 col-xl-auto">
-            <h4 class="title">Similar Places</h5>
+            <h4 class="title">Similar Places</h4>
             <ul>
               <li>River Falls, CO</li>
               <li>Milton, TX</li>
@@ -270,7 +275,7 @@
             </ul>
           </div>
           <div class="col-12 col-lg-6 col-xl-4">
-            <h4 class="title">The Takeaway</h5>
+            <h4 class="title">The Takeaway</h4>
             <p>
               Meridian, Idaho is one of the most beautiful places to live in
               Idaho. It has an amazing school system with 3 universiites ranked
@@ -283,7 +288,7 @@
               exhilerating as you’d like it to be
             </p>
           </div>
-          <div class="col-12 col-lg-6 col-xl-2 similar-col">
+          <div class="col-12 col-lg-6 col-xl-2 similar-col col-title ml-auto">
             <div class="label">Similar Cities With</div>
             <h5 class="title-sm">Greater Overall Score</h5>
             <ul>
@@ -296,6 +301,7 @@
           </div>
         </div>
 
+        <!-- Affordability -->
         <div class="row row-info">
           <div class="col-12 col-lg-auto">
             <div class="info-box">
@@ -315,41 +321,86 @@
             </div>
           </div>
           <!-- <div class="w-100 d-none d-lg-block d-xl-none"></div> -->
-          <div class="col-12 col-sm-6 col-lg-3 col-xl-auto">
-            <h4 class="title">Rankings</h5>
-            <ul>
-              <li><b>#10</b> Safest Cities In Idaho</li>
-              <li><b>#22</b> Best Schools In Idaho</li>
-              <li><b>#39</b> Fastest Growing Cities</li>
-            </ul>
+          <div class="col col-table col-table-type-1">
+            <div class="row">
+              <div class="col-2 th"></div>
+              <div class="col-2 th col-title mr-2">
+                <div class="label">Median</div>
+                <h5 class="title-sm">Salary</h5>
+                <div class="calc-icon">(-)</div>
+              </div>
+              <div class="col th col-2 col-title mr-2">
+                <div class="label">Median</div>
+                <h5 class="title-sm">Cost of living</h5>
+                <div class="calc-icon">(=)</div>
+              </div>
+              <div class="col th col-title">
+                <div class="label">After Taxes & Cost of Living</div>
+                <h5 class="title-sm">What's Leftover</h5>
+              </div>
+              <div class="col th col-title">
+                <div class="label">Salary/Leftover After Taxes</div>
+                <h5 class="title-sm">% Of Earnings Saved</h5>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-2">
+                <h5 class="title-sm title-sm-left">Meridian</h5>
+                <div class="label">Idaho</div>
+              </div>
+              <div class="col-2 mr-2">
+                <div class="value">
+                  $63,225
+                  <span class="value-pct value-pct-down">
+                    <i class="icon arrow-icon arrow-down"></i>
+                    <span>11%</span>
+                  </span>
+                </div>
+              </div>
+              <div class="col-2 mr-2">
+                <div class="value">
+                  $22,000
+                  <span class="value-pct value-pct-down">
+                    <i class="icon arrow-icon arrow-down"></i>
+                    <span>11%</span>
+                  </span>
+                </div>
+              </div>
+              <div class="col">
+                <div class="value">$41,225</div>
+              </div>
+              <div class="col">
+                <div class="value value-earnings">
+                  65%<i class="icon check-icon"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mb-3">
+              <div class="col-2">
+                <h5 class="title-sm title-sm-left">Round Rock</h5>
+                <div class="label">Texas</div>
+              </div>
+              <div class="col-2 mr-2">
+                <div class="value">$63,225</div>
+              </div>
+              <div class="col-2 mr-2">
+                <div class="value">$22,000</div>
+              </div>
+              <div class="col">
+                <div class="value">$41,225</div>
+              </div>
+              <div class="col">
+                <div class="value value-earnings">
+                  65%<i class="icon check-icon"></i>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-12 col-sm-6 col-lg-3 col-xl-auto">
-            <h4 class="title">Similar Places</h5>
-            <ul>
-              <li>River Falls, CO</li>
-              <li>Milton, TX</li>
-              <li>Kuna, ID</li>
-              <li>Round Rock, TX</li>
-              <li>Billings, MT</li>
-            </ul>
-          </div>
-          <div class="col-12 col-lg-6 col-xl-4">
-            <h4 class="title">The Takeaway</h5>
-            <p>
-              Meridian, Idaho is one of the most beautiful places to live in
-              Idaho. It has an amazing school system with 3 universiites ranked
-              in the top 100, and high schools are incredible. Outdoor
-              recreation is second to none, and it can be as exhilerating as
-              you’d like it to be. Meridian, Idaho is one of the most beautiful
-              places to live in Idaho. It has an amazing school system with 3
-              universiites ranked in the top 100, and high schools are
-              incredible. Outdoor recreation is second to none, and it can be as
-              exhilerating as you’d like it to be
-            </p>
-          </div>
-          <div class="col-12 col-lg-6 col-xl-2 similar-col">
+
+          <div class="col-12 col-xl-2 similar-col col-title ml-auto">
             <div class="label">Similar Cities With</div>
-            <h5 class="title-sm">Greater Overall Score</h5>
+            <h5 class="title-sm">Greater Affordability</h5>
             <ul>
               <li>River Falls, CO</li>
               <li>Milton, TX</li>
@@ -359,7 +410,155 @@
             </ul>
           </div>
         </div>
-        
+
+        <!-- Job Market -->
+        <div class="row row-info">
+          <div class="col-12 col-lg-auto">
+            <div class="info-box">
+              <div class="title">Job Market</div>
+              <div class="value-container">
+                <div class="value">9.1</div>
+                <div class="value-desc">Amazing</div>
+              </div>
+
+              <div class="rate-container d-flex justify-content-between px-3">
+                <div class="rate"></div>
+                <div class="rate"></div>
+                <div class="rate"></div>
+                <div class="rate"></div>
+                <div class="rate not-filled"></div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="w-100 d-none d-lg-block d-xl-none"></div> -->
+          <div class="col col-table col-table-type-2">
+            <div class="row">
+              <div class="col-2 th"></div>
+              <div class="col-2 th col-title">
+                <div class="label">Median</div>
+                <h5 class="title-sm">Salary</h5>
+              </div>
+              <div class="col-3 th col-title">
+                <div class="label">Largest</div>
+                <h5 class="title-sm">Employers</h5>
+              </div>
+              <div class="col-3 th col-title">
+                <div class="label">Largest</div>
+                <h5 class="title-sm">Industries</h5>
+              </div>
+              <div class="col-2 th col-title">
+                <div class="label">2016 VS 2020</div>
+                <h5 class="title-sm">Unemployment</h5>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-2">
+                <h5 class="title-sm title-sm-left">Meridian</h5>
+                <div class="label">Idaho</div>
+              </div>
+              <div class="col-2">
+                <div class="value">
+                  $63,225
+                  <span class="value-pct value-pct-down">
+                    <i class="icon arrow-icon arrow-down"></i>
+                    <span>11%</span>
+                  </span>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="value value-list">
+                  <ul>
+                    <li
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      Hewlett Packard <small>(15,202)</small>
+                    </li>
+                    <li
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      Microsoft Technologies <small>(15,202)</small>
+                    </li>
+                    <li
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      Scentsy <small>(15,202)</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="value value-list">
+                  <ul>
+                    <li
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      Technology <small>(33%)</small>
+                    </li>
+                    <li
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      Healthcare <small>(17%)</small>
+                    </li>
+                    <li
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      Legal <small>(8%)</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="value value-earnings">
+                  <span>2.4%</span>
+                  <i class="icon increasing-icon"></i>
+                  <span>3.8%</span>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-2">
+                <h5 class="title-sm title-sm-left">Round</h5>
+                <div class="label">Rock</div>
+              </div>
+              <div class="col-2">
+                <div class="value">
+                  $63,225
+                  <span class="value-pct value-pct-down">
+                    <i class="icon arrow-icon arrow-down"></i>
+                    <span>11%</span>
+                  </span>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="value value-list">
+                  <ul></ul>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="value value-list"></div>
+              </div>
+              <div class="col-2">
+                <div class="value value-earnings">
+                  <span>2.4%</span>
+                  <i class="icon decreasing-icon"></i>
+                  <span>3.8%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-xl-2 similar-col col-title ml-auto">
+            <div class="label">Similar Cities With</div>
+            <h5 class="title-sm">Better Job Market</h5>
+            <ul>
+              <li>River Falls, CO</li>
+              <li>Milton, TX</li>
+              <li>Kuna, ID</li>
+              <li>Round Rock, TX</li>
+              <li>Billings, MT</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </main>
 
