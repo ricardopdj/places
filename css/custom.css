@@ -125,6 +125,13 @@ ul {
   /* justify-content: center; */
 }
 
+.info-box small {
+  display: block;
+  font-size: 18px;
+  position: relative;
+  top: -20px;
+}
+
 .info-box-extra b {
   font-weight: 700;
   font-size: 13px;
@@ -238,6 +245,7 @@ ul {
 .info-container .row-info .info-box .rate-container {
   margin-top: auto;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .info-container .row-info .info-box .rate {
@@ -452,4 +460,99 @@ ul {
 
 .info-container .col-table-safety .progress-bar {
   background-color: black;
+}
+
+.info-box-political .label-left,
+.info-box-political .label-right {
+  font-size: 14px;
+  position: absolute;
+  top: -20px;
+}
+
+.info-box-political .label-left {
+  left: 15px;
+}
+
+.info-box-political .label-right {
+  right: 15px;
+}
+
+.info-container .col-table-political .value {
+  color: #000;
+}
+
+.info-container .col-table-political .value small {
+  position: relative;
+  top: -5px;
+}
+
+.info-container .col-table-political .circle {
+  width: 30px;
+  height: 30px;
+  background: #d73636;
+  border: solid 1px #c2c2c2;
+  border-radius: 50%;
+}
+
+.info-container .col-table-political .circle.light-gray {
+  background-color: #efefef;
+}
+
+.info-container .col-table-political .circle.dark-gray {
+  background-color: #aaaaaa;
+}
+
+.info-container .col-table-political .circle.light-red {
+  background-color: #e4c0c0;
+}
+
+.info-container .col-table-political .year {
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+.info-container .col-table-political .col-elections .col-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.info-container .col-table-political .election-legend {
+  display: flex;
+  position: relative;
+}
+
+.info-container .col-table-political .election-legend .bar {
+  height: 11px;
+  flex: 1;
+  width: 50px;
+}
+
+.election-legend .gray {
+  background-color: #95aacd;
+}
+
+.election-legend .light-gray {
+  background-color: #dfe7fa;
+}
+
+.election-legend .light-red {
+  background-color: #e4c0c0;
+}
+
+.election-legend .red {
+  background-color: #c72b2b;
+}
+
+.info-container .col-table-political .election-legend .label {
+  bottom: -24px;
+  position: absolute;
+}
+
+.info-container .col-table-political .election-legend .label-left {
+  left: 0;
+}
+
+.info-container .col-table-political .election-legend .label-right {
+  right: 0;
 }
