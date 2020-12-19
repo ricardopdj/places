@@ -125,6 +125,11 @@ ul {
   /* justify-content: center; */
 }
 
+.info-box-extra b {
+  font-weight: 700;
+  font-size: 13px;
+}
+
 .top-info-container {
   margin-bottom: 100px;
   margin-top: 30px;
@@ -295,42 +300,59 @@ ul {
   margin-bottom: -5px;
 }
 
-.col-table-type-1 .value {
+.col-table-affordability .value {
   font-size: 20px;
 }
 
-.col-table-type-1 .value-pct,
-.col-table-type-2 .value-pct {
+.col-table-affordability .value-pct,
+.col-table-job-market .value-pct {
   font-size: 19px;
   font-weight: bold;
 }
 
-.col-table-type-1 .value-pct .icon,
-.col-table-type-2 .value-pct .icon {
+.col-table-affordability .value-pct .icon,
+.col-table-job-market .value-pct .icon {
   height: 14px;
   margin-left: 5px;
   margin-right: -5px;
   width: 13px;
 }
 
-.col-table-type-1 .value-pct-down,
-.col-table-type-2 .value-pct-down {
+.col-table-affordability .value-pct-down,
+.col-table-job-market .value-pct-down {
   color: #c30000;
 }
 
-.col-table-type-1 .value-earnings {
+.col-table-affordability .value-earnings {
   font-weight: bold;
   position: relative;
 }
 
-.col-table-type-1 .value-earnings .icon {
+.col-table-affordability .value-earnings .icon {
   position: absolute;
   left: 60px;
   top: 0px;
 }
 
-.col-table-type-2 .value-list small {
+.col-table-job-market .value-list small {
   color: grey;
   font-size: 12px;
   font-weight: 300;
+}
+
+.info-container .col-table-schools .col-title .title-sm {
+  border-bottom: none;
+  margin-bottom: -5px;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.info-container .col-table-schools .col-title .label {
+  border-bottom: solid 1px #000;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.info-container .col-table-schools .title-sm-sub {
+  font-size: 16px;
 }
