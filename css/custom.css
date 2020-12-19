@@ -217,6 +217,8 @@ ul {
 .info-container .row-info .info-box .title {
   font-size: 21px;
   text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 15px;
 }
 
 .info-container .row-info .info-box .value-container {
@@ -231,6 +233,11 @@ ul {
 .info-container .row-info .info-box .value-desc {
   font-size: 22px;
   font-weight: 900;
+}
+
+.info-container .row-info .info-box .rate-container {
+  margin-top: auto;
+  margin-bottom: 10px;
 }
 
 .info-container .row-info .info-box .rate {
@@ -253,7 +260,7 @@ ul {
 
 .info-container .row-info .title-sm {
   color: #000000;
-  font-size: 21px;
+  font-size: 19px;
   font-weight: 900;
 }
 
@@ -355,4 +362,50 @@ ul {
 
 .info-container .col-table-schools .title-sm-sub {
   font-size: 16px;
+}
+
+.info-container .col-table-weather .value {
+  color: #000;
+}
+
+.info-container .col-table-weather .attire-icons-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-container .col-table-weather .attire-icons-col .pants-icon {
+  position: relative;
+  left: 6px;
+}
+
+.info-container .col-table-weather .value {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.info-container .col-table-weather .value span {
+  font-size: 14px;
+}
+
+@media (min-width: 1300px) {
+  .info-container .row-info .col-table-seasons {
+    position: relative;
+    top: -30px;
+  }
+}
+
+.info-container .row-info .col-table-seasons .title-sm {
+  margin-bottom: 0;
+  padding: 3px 0;
+}
+
+.info-container .row-info .col-table-seasons .text-red {
+  color: #ed0000;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.info-container .row-info .col-table-seasons .text-gray {
+  font-size: 15px;
 }
