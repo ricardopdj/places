@@ -205,3 +205,12 @@
   height: 40px;
   width: 40px;
 }
+
+.clock-icon {
+  background-image: url("../img/clock.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 52px;
+  width: 52px;
+}

@@ -451,14 +451,14 @@ ul {
   margin-bottom: -10px;
 }
 
-.info-container .col-table-safety .progress {
+.info-container .progress {
   background-color: transparent;
   border: solid 1px black;
   border-radius: 0;
   height: 8px;
 }
 
-.info-container .col-table-safety .progress-bar {
+.info-container .progress-bar {
   background-color: black;
 }
 
@@ -555,4 +555,20 @@ ul {
 
 .info-container .col-table-political .election-legend .label-right {
   right: 0;
+}
+
+.info-container .col-table-quality .value {
+  color: #000;
+  line-height: 14px;
+}
+
+.info-container .col-table-quality .value + small {
+  display: block;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.info-container .col-table-quality .rating {
+  color: orange;
+  font-size: 10px;
 }
