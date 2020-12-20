@@ -99,10 +99,6 @@ ul {
   text-transform: uppercase;
 }
 
-.main-content .content-title-container {
-  margin-bottom: 100px;
-}
-
 .main-content .content-title {
   font-family: "Roboto", sans-serif;
   font-size: 60px;
@@ -115,6 +111,34 @@ ul {
   font-size: 35px;
   font-weight: 200;
   text-transform: uppercase;
+}
+
+.main-content .content-title-container .get-to-know {
+  border: solid 1px #cdcdcd;
+  border-radius: 7px;
+  height: 110px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  justify-content: space-between;
+  padding: 10px 15px;
+  width: 520px;
+}
+
+.main-content .content-title-container .get-to-know .icon {
+  position: relative;
+  left: -3px;
+}
+
+.main-content .content-title-container .get-to-know .title {
+  align-items: center;
+  display: flex;
+  font-size: 27px;
+  flex-direction: row;
+}
+
+.main-content .content-title-container .get-to-know img {
+  height: 100%;
+  width: 85px;
 }
 
 .info-box {
@@ -571,4 +595,32 @@ ul {
 .info-container .col-table-quality .rating {
   color: orange;
   font-size: 10px;
+}
+
+.info-container .row-info .info-box-population .value-desc {
+  margin-top: auto;
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.info-container .row-info .col-table-population {
+  color: #000;
+}
+
+.info-container .row-info .col-table-population .col-title .title-sm {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.info-container .row-info .col-table-population .col-title .label {
+  border-bottom: solid 1px #000;
+  margin-bottom: 5px;
+}
+
+.info-container .row-info .col-table-population .progress {
+  background-color: #c4c4c4;
+  border: none;
+  height: 14px;
 }

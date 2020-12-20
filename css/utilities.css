@@ -214,3 +214,12 @@
   height: 52px;
   width: 52px;
 }
+
+.clapperboard-icon {
+  background-image: url("../img/clapperboard.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
