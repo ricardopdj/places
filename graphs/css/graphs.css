@@ -1,0 +1,239 @@
+@font-face {
+  font-family: "AvenirRoman";
+  src: url("../../fonts/Avenir-Roman.otf") format("opentype");
+}
+
+body {
+  color: #000;
+  font-family: "AvenirRoman";
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+/* MARGIN TOP */
+.mt-6 {
+  margin-top: 6px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+/* MARGIN RIGHT */
+.mr-5 {
+  margin-right: 5px !important;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-33 {
+  margin-right: 33px;
+}
+
+/* MARGIN BOTTOM */
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-58 {
+  margin-bottom: 58px;
+}
+
+/* PADDING LEFT */
+.pl-38 {
+  padding-left: 38px;
+}
+
+.pl-42 {
+  padding-left: 42px;
+}
+
+.pl-62 {
+  padding-left: 62px;
+}
+
+.pl-110 {
+  padding-left: 110px;
+}
+
+/* PADDING TOP */
+.pt-86 {
+  padding-top: 86px;
+}
+
+.pt-95 {
+  padding-top: 95px;
+}
+
+/* PADDING RIGHT */
+/* PADDING BOTTOM */
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+/* FONT */
+.font-10 {
+  font-size: 10px;
+}
+
+.font-13 {
+  font-size: 13px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.font-26 {
+  font-size: 26px;
+}
+
+/* FONT WEIGTH */
+.font-w-500 {
+  font-weight: 500;
+}
+.font-w-800 {
+  font-weight: 800;
+}
+
+.font-w-900 {
+  font-weight: 900;
+}
+
+.text-green {
+  color: #3fb1b4;
+}
+
+.text-gray {
+  color: #616161;
+}
+
+.text-gray-light {
+  color: #8e8b8b;
+}
+
+/* WIDTHS */
+.w-110 {
+  width: 110px;
+}
+
+.w-234 {
+  width: 234px;
+}
+
+.w-287 {
+  width: 287px;
+}
+
+.w-350 {
+  width: 350px;
+}
+
+.w-354 {
+  width: 354px;
+}
+
+.lh-19 {
+  line-height: 19px;
+}
+
+.lh-30 {
+  line-height: 30px;
+}
+
+.table-separate-10 {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+.border-gray {
+  border-color: #969696 !important;
+}
+
+.option-container {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.164882);
+  border-radius: 6px;
+  display: flex;
+  margin: 20px auto 100px;
+  width: 981px;
+}
+
+.col-left {
+  border-right: solid 1px #d2d2d2;
+  padding: 40px 32px;
+}
+
+.col-right {
+  flex: 1;
+}
+
+.category-label {
+  color: #616161;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 22px;
+}
+
+.header {
+  color: #70a0ff;
+  font-size: 23px;
+  font-weight: 900;
+}
+
+ol {
+  counter-reset: item;
+  list-style-type: none;
+}
+
+ol li {
+  position: relative;
+}
+
+ol li:before {
+  content: counter(item) "  ";
+  counter-increment: item;
+  left: -20px;
+  position: absolute;
+  font-weight: bold;
+}
