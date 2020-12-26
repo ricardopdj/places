@@ -38,8 +38,20 @@ h6 {
   margin-top: 6px;
 }
 
+.mt-8 {
+  margin-top: 8px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
 .mt-40 {
   margin-top: 40px;
+}
+
+.mt-65 {
+  margin-top: 65px;
 }
 
 /* MARGIN RIGHT */
@@ -56,6 +68,10 @@ h6 {
 }
 
 /* MARGIN BOTTOM */
+.mb-8 {
+  margin-bottom: 8px;
+}
+
 .mb-10 {
   margin-bottom: 10px;
 }
@@ -65,20 +81,41 @@ h6 {
 }
 
 .mb-24 {
-  margin-bottom: 24px;
+  margin-bottom: 24px !important;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-38 {
+  margin-bottom: 38px;
 }
 
 .mb-58 {
   margin-bottom: 58px;
 }
 
+/* MARGIN LEFT */
+.ml-10 {
+  margin-left: 10px;
+}
+
 /* PADDING LEFT */
+.pl-24 {
+  padding-left: 24px;
+}
+
 .pl-38 {
   padding-left: 38px;
 }
 
 .pl-42 {
   padding-left: 42px;
+}
+
+.pl-56 {
+  padding-left: 56px;
 }
 
 .pl-62 {
@@ -90,6 +127,10 @@ h6 {
 }
 
 /* PADDING TOP */
+.pt-16 {
+  padding-top: 16px;
+}
+
 .pt-86 {
   padding-top: 86px;
 }
@@ -98,8 +139,24 @@ h6 {
   padding-top: 95px;
 }
 
+.pt-135 {
+  padding-top: 135px;
+}
+
 /* PADDING RIGHT */
+.pr-38 {
+  padding-right: 38px;
+}
+
 /* PADDING BOTTOM */
+.pb-8 {
+  padding-bottom: 8px;
+}
+
+.pb-16 {
+  padding-bottom: 16px;
+}
+
 .pb-40 {
   padding-bottom: 40px;
 }
@@ -107,6 +164,10 @@ h6 {
 /* FONT */
 .font-10 {
   font-size: 10px;
+}
+
+.font-12 {
+  font-size: 12px;
 }
 
 .font-13 {
@@ -117,8 +178,16 @@ h6 {
   font-size: 14px;
 }
 
-.font-14 {
-  font-size: 14px;
+.font-16 {
+  font-size: 16px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-23 {
+  font-size: 23px;
 }
 
 .font-24 {
@@ -130,6 +199,14 @@ h6 {
 }
 
 /* FONT WEIGTH */
+.font-w-300 {
+  font-weight: 300;
+}
+
+.font-w-400 {
+  font-weight: 400;
+}
+
 .font-w-500 {
   font-weight: 500;
 }
@@ -145,6 +222,14 @@ h6 {
   color: #3fb1b4;
 }
 
+.text-blue {
+  color: #70a0ff;
+}
+
+.text-blue-dark {
+  color: #3b568d;
+}
+
 .text-gray {
   color: #616161;
 }
@@ -154,8 +239,24 @@ h6 {
 }
 
 /* WIDTHS */
+.w-20 {
+  width: 20px;
+}
+
+.w-63 {
+  width: 63px;
+}
+
+.w-80 {
+  width: 80px;
+}
+
 .w-110 {
   width: 110px;
+}
+
+.w-140 {
+  width: 140px;
 }
 
 .w-234 {
@@ -182,6 +283,14 @@ h6 {
   line-height: 30px;
 }
 
+.lh-33 {
+  line-height: 33px;
+}
+
+.lh-36 {
+  line-height: 36px;
+}
+
 .table-separate-10 {
   border-collapse: separate;
   border-spacing: 0 10px;
@@ -189,6 +298,10 @@ h6 {
 
 .border-gray {
   border-color: #969696 !important;
+}
+
+.border-gray-light {
+  border-color: #d7d7d7 !important;
 }
 
 .option-container {
@@ -236,4 +349,53 @@ ol li:before {
   left: -20px;
   position: absolute;
   font-weight: bold;
+}
+
+.icon-thumbs-up {
+  align-items: center;
+  background-color: #59baf9;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  height: 38px;
+  width: 38px;
+}
+
+.icon-thumbs-down {
+  align-items: center;
+  background-color: #e74061;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  height: 38px;
+  width: 38px;
+}
+
+.schools-title {
+  font-size: 12px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.schools-title:before {
+  background-image: url("../img/hat.svg");
+  background-size: contain;
+  content: "";
+  display: inline-block;
+  height: 18px;
+  left: -30px;
+  top: -2px;
+  position: absolute;
+  width: 22px;
+}
+
+.school-link {
+  color: #8e8b8b;
+  display: block;
+  font-size: 12px;
+  margin-bottom: 10px;
+  text-decoration: underline;
 }
