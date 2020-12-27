@@ -5,7 +5,7 @@
 
 body {
   color: #000;
-  font-family: "AvenirRoman";
+  font-family: "AvenirRoman", sans-serif;
 }
 
 ul {
@@ -86,6 +86,10 @@ h6 {
 
 .mb-30 {
   margin-bottom: 30px;
+}
+
+.mb-35 {
+  margin-bottom: 35px !important;
 }
 
 .mb-38 {
@@ -398,4 +402,26 @@ ol li:before {
   font-size: 12px;
   margin-bottom: 10px;
   text-decoration: underline;
+}
+
+.progress {
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.progress-bar {
+  padding-left: 5px;
+  text-align: left;
+}
+
+.progress-bar-green {
+  background-color: #3fb1b4;
+}
+
+.progress-bar-blue {
+  background-color: #70a0ff;
+}
+
+.progress-bar-gray {
+  background-color: #bdbdbd;
 }
