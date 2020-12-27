@@ -230,6 +230,10 @@ h6 {
   color: #70a0ff;
 }
 
+.text-blue-light {
+  color: #59baf9;
+}
+
 .text-blue-dark {
   color: #3b568d;
 }
@@ -240,6 +244,10 @@ h6 {
 
 .text-gray-light {
   color: #8e8b8b;
+}
+
+.text-gray-lighter {
+  color: #959595;
 }
 
 /* WIDTHS */
@@ -298,6 +306,11 @@ h6 {
 .table-separate-10 {
   border-collapse: separate;
   border-spacing: 0 10px;
+}
+
+.table-separate-20 {
+  border-collapse: separate;
+  border-spacing: 0 20px;
 }
 
 .border-gray {
@@ -424,4 +437,14 @@ ol li:before {
 
 .progress-bar-gray {
   background-color: #bdbdbd;
+}
+
+.progress-v {
+  display: flex;
+  align-items: baseline;
+  width: 36px;
+}
+
+.progress-v .progress-bar {
+  padding-left: 0;
 }
