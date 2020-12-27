@@ -166,6 +166,10 @@ h6 {
 }
 
 /* FONT */
+.font-9 {
+  font-size: 9px;
+}
+
 .font-10 {
   font-size: 10px;
 }
@@ -447,4 +451,25 @@ ol li:before {
 
 .progress-v .progress-bar {
   padding-left: 0;
+}
+
+.month-bar {
+  background-color: #3fb1b4;
+  height: 13px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.month-bar-sm {
+  background-color: #3fb1b4;
+  height: 6px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.month-bar-blue {
+  background-color: #70a0ff;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
 }
