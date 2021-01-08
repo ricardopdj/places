@@ -226,6 +226,10 @@ h6 {
   font-weight: 900;
 }
 
+.text-black {
+  color: #000;
+}
+
 .text-green {
   color: #3fb1b4;
 }
