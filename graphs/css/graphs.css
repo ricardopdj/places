@@ -174,6 +174,10 @@ h6 {
   font-size: 10px;
 }
 
+.font-11 {
+  font-size: 11px;
+}
+
 .font-12 {
   font-size: 12px;
 }
@@ -260,6 +264,14 @@ h6 {
 
 .text-red {
   color: #ff7070;
+}
+
+.text-red-dark {
+  color: #a00000;
+}
+
+.text-yellow {
+  color: #f7c71f;
 }
 
 /* WIDTHS */
@@ -404,6 +416,60 @@ ol li:before {
   justify-content: center;
   height: 38px;
   width: 38px;
+}
+
+.icon-cloud {
+  background-image: url("../img/cloud.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+}
+
+.icon-sun {
+  background-image: url("../img/sun.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+}
+
+.icon-rain {
+  background-image: url("../img/rain.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+}
+
+.icon-snow {
+  background-image: url("../img/snow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+}
+
+.icon-pants {
+  background-image: url("../img/pants.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 56px;
+  width: 32px;
+}
+
+.icon-shorts {
+  background-image: url("../img/shorts.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 35px;
+  width: 42px;
 }
 
 .schools-title {
@@ -553,4 +619,103 @@ ol li:before {
   bottom: 0;
   left: 0;
   width: 7px;
+}
+
+.day-circle {
+  background-color: #70a0ff;
+  border-radius: 50%;
+  height: 15px;
+  margin-right: 3px;
+  width: 15px;
+}
+
+.day-circle-empty {
+  background-color: white;
+  border: solid 1px #70a0ff;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 29px;
+  height: 16px;
+  margin-bottom: 0;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: solid 1px #bebebe;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.switch .slider:before {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  left: -12px;
+  top: 2px;
+  bottom: 4px;
+  background-color: #bebebe;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.switch input:checked + .slider {
+  border-color: #70a0ff;
+}
+
+.switch input:focus + .slider {
+  box-shadow: 0 0 1px #70a0ff;
+}
+
+.switch input:checked + .slider:before {
+  background-color: #70a0ff;
+  -webkit-transform: translateX(14px);
+  -ms-transform: translateX(14px);
+  transform: translateX(14px);
+}
+
+/* Rounded sliders */
+.switch .slider.round {
+  border-radius: 34px;
+}
+
+.switch .slider.round:before {
+  border-radius: 50%;
+}
+
+.switch-v {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 29px;
+}
+
+.switch-v .slider:before {
+  left: -24px;
+  top: 14px;
+}
+
+.switch-v input:checked + .slider:before {
+  -webkit-transform: translate(26px, -12px);
+  -ms-transform: translate(26px, -12px);
+  transform: translate(26px, -12px);
 }
