@@ -20,6 +20,11 @@ h6 {
   margin-bottom: 0;
 }
 
+.col-auto {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .lh-n {
   line-height: normal;
 }
@@ -72,6 +77,10 @@ h6 {
   font-weight: 300;
 }
 
+.font-w-500 {
+  font-weight: 500;
+}
+
 .font-w-700 {
   font-weight: 700;
 }
@@ -83,6 +92,57 @@ h6 {
 .bg-orange-light {
   background-color: #f4e4c4;
   color: #efaa24;
+}
+
+.bg-blue-light {
+  background-color: #d3ecf5;
+  color: #3b9fc9;
+}
+
+.icon-line-up {
+  background-size: cover;
+  display: inline-block;
+  height: 17px;
+  width: 17px;
+}
+
+.icon-line-up-blue-w {
+  background-image: url("../img/chart-line-blue-w.png");
+}
+
+.icon-line-up-blue-light {
+  background-image: url("../img/chart-line-blue-light.png");
+  height: 11px;
+  width: 11px;
+}
+
+.icon-line-down {
+  background-size: cover;
+  display: inline-block;
+  height: 17px;
+  width: 17px;
+}
+
+.icon-line-down-red-w {
+  background-image: url("../img/chart-line-red-w.png");
+}
+
+.icon-line-down-red-light {
+  background-image: url("../img/chart-line-red-light.png");
+  height: 11px;
+  width: 11px;
+}
+
+.text-blue {
+  color: #5ab2d4;
+}
+
+.text-red {
+  color: #cd5d5d;
+}
+
+.text-gray-dark {
+  color: #656b72;
 }
 
 .nav-item {
@@ -124,6 +184,10 @@ h6 {
 .info-box-white {
   background-color: white;
   color: black;
+}
+
+.info-box-blue {
+  background-color: #5ab2d4;
 }
 
 .info-box .content {
@@ -168,6 +232,10 @@ h6 {
   width: 15px;
 }
 
+.info-box-blue .content .value-container .spots:before {
+  background-image: url("../img/chart-line-blue.png");
+}
+
 .info-box .footer {
   background-color: #f4e4c4;
   color: #efaa24;
@@ -175,6 +243,11 @@ h6 {
   margin-top: auto;
   text-align: center;
   width: 100%;
+}
+
+.info-box-blue .footer {
+  background-color: #d3ecf5;
+  color: #3b9fc9;
 }
 
 .info-box .footer .category {
@@ -246,6 +319,6 @@ h6 {
   background-color: white;
   display: flex;
   flex-direction: column;
-  height: 233px;
+  height: 230px;
   width: 194px;
 }
