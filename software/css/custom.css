@@ -37,6 +37,10 @@ h6 {
   font-size: 12px;
 }
 
+.font-13 {
+  font-size: 13px;
+}
+
 .font-14 {
   font-size: 14px;
 }
@@ -125,6 +129,11 @@ h6 {
 
 .icon-line-down-red-w {
   background-image: url("../img/chart-line-red-w.png");
+}
+
+.icon-line-down-red-w-lg {
+  height: 28px;
+  width: 27px;
 }
 
 .icon-line-down-red-light {
