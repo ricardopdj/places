@@ -331,3 +331,42 @@ h6 {
   height: 230px;
   width: 194px;
 }
+
+.search-container {
+  background-color: #efaa24;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.search-form {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.btn-search {
+  border-color: transparent;
+  color: white;
+  box-shadow: 0px 0px 2px 0px #a18d2b;
+}
+
+.software-item .col-img {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+}
+
+@media (min-width: 992px) {
+  .software-item .col-img {
+    height: auto;
+  }
+
+  .left-section .collapse {
+    display: block;
+  }
+}
+
+.left-section h4.collapse-text {
+  border-bottom: 3px solid #ebebeb;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
